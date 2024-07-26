@@ -1,0 +1,75 @@
+#navbar {
+    background-color: #333;
+    height: 7rem;
+    overflow: hidden;
+    position: absolute;
+    display: inline-flex;
+    bottom: .5rem;
+    width: 99%;
+    text-align: center;
+}
+
+#linkedin {
+    padding: 2rem 0 2rem 2rem;
+    width: 50%;
+
+    a {
+        border-radius: 20px;
+        margin-left: 10%;
+        padding: 1rem;
+    }
+
+    img {
+        width: 4rem;
+        border-radius: 40px;
+        position: absolute;
+    }
+}
+
+#linkedin :hover {
+
+    background-color: #bbbbbb;
+    color: black;
+}
+
+#github {
+    padding: 2rem;
+    width: 50%;
+
+    a {
+        border-radius: 20px;
+        margin-left: 10%;
+        padding: 1rem;
+    }
+
+    img {
+        width: 4rem;
+        border-radius: 40px;
+        position: absolute;
+    }
+}
+
+#github :hover {
+
+    background-color: #bbbbbb;
+    color: black;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a#active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#navbar #icon {
+    display: none;
+}

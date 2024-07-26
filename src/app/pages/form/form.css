@@ -1,0 +1,21 @@
+#form{
+    margin: auto;
+    width: 50rem;
+    text-align: center;
+
+    Button{
+        border: 1px solid black !important; 
+        border-radius: 5px !important;
+        margin-bottom: 10px !important;
+        width: 20rem !important;
+        background-color: #f1f1f1;
+        color: black !important;
+        font-weight: 700 !important;
+        
+    }
+    Button:hover{
+    
+        background-color: #ddd;
+    }
+}
+

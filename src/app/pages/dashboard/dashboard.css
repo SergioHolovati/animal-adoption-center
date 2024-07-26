@@ -1,0 +1,26 @@
+#dashboard{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 94rem;
+    height: 75vh;
+}
+
+.MuiDataGrid-row{
+    height: 20px;
+    width: 10px;
+}
+
+#newPet{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 20rem;
+    background-color: rgb(218, 236, 255);
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#newPet:hover{
+    background-color: rgb(187, 220, 255) !important;
+}
