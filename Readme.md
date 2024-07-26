@@ -28,7 +28,7 @@ Para executar esta aplicação localmente, siga as etapas abaixo:
 1. Clone o repositório para o seu ambiente local:
 
     ```bash
-    git clone https://github.com/seu-usuario/animal-adoption-center.git
+    git clone https://github.com/SergioHolovati/animal-adoption-center.git
     cd animal-adoption-center
     ```
 
